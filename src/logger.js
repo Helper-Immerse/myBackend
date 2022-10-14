@@ -6,6 +6,9 @@ let WelcomeMessage = function() {
 }
 
 let date = new Date();
+const currentMonth = new Date().getMonth() +1
 module.exports.myUrl = url
 module.exports.myFunction = WelcomeMessage
 module.exports.PresentDate = date
+module.exports.Monthme = currentMonth
+
