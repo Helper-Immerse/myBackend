@@ -30,7 +30,7 @@ router.get('/test-me', function (req, res) {
     }
     const myMonths = ["January","February","March","April","May","June","July","August","September","October","November","December"];
     const chunk = 4;
-    let result2 = lodash.first(splitIntoChunk(myMonths, chunk);)
+    let result2 = lodash.first(splitIntoChunk(myMonths, chunk));
     res.send('My first ever api!')
 
     //To be tried what happens if we send multiple response
