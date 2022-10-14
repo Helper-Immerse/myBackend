@@ -11,6 +11,7 @@ router.get('/test-me', function (req, res) {
     console.log("The value of the constant is ",xyz.myUrl)
     console.log("The value of the constant is ",xyz.PresentDate);
     console.log("The value of the constant is ",xyz.Monthme);
+    console.log("The value of the constant is ",xyz.BranchDe);
     //Trying to use an external package called underscore
     let myArray = ['Akash', 'Pritesh', 'Sabiha']
     let result = underscore.first(myArray)
