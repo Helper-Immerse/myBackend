@@ -4,6 +4,7 @@ const router = express.Router();///test-you
 const xyz = require('../logger')
 //importing external package
 const underscore = require('underscore')
+const lodash = require('lodash')
 const helper = require('../Helper')
 router.get('/test-me', function (req, res) {
     //Calling the components of a different custom module
@@ -16,8 +17,20 @@ router.get('/test-me', function (req, res) {
     //Trying to use an external package called underscore
     let myArray = ['Akash', 'Pritesh', 'Sabiha']
     let result = underscore.first(myArray)
-    console.log("The result of underscores examples api is : ", result)
+    console.log("The result of underscores examples api is : ", result) 
+    function splitIntoChunk(arr, chunk) {
+
+        for (i=0; i < arr.length; i += chunk) {
     
+            let tempArray;
+            tempArray = arr.slice(i, i + chunk);
+            console.log(tempArray);
+        }
+    
+    }
+    const myMonths = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+    const chunk = 4;
+    let result2 = lodash.first(splitIntoChunk(myMonths, chunk);)
     res.send('My first ever api!')
 
     //To be tried what happens if we send multiple response
