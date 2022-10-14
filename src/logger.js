@@ -9,7 +9,4 @@ let myTrim = function() {
 }
 module.exports.myUrl = url
 module.exports.myFunction = WelcomeMessage
-module.exports.PresentDate = date
-module.exports.Monthme = currentMonth
-module.exports.BranchDe = BranchInfo
 

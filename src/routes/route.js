@@ -8,6 +8,7 @@ const helper = require('../Helper')
 router.get('/test-me', function (req, res) {
     //Calling the components of a different custom module
     console.log("Calling my function ",xyz.myFunction())
+    console.log("Calling my function ",helper.NameMy())
     console.log("The value of the constant is ",xyz.myUrl)
     console.log("The value of the constant is ",helper.PresentDate);
     console.log("The value of the constant is ",helper.Monthme);
