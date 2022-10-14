@@ -9,6 +9,7 @@ router.get('/test-me', function (req, res) {
     //Calling the components of a different custom module
     console.log("Calling my function ",xyz.myFunction())
     console.log("The value of the constant is ",xyz.myUrl)
+    console.log("The value of the constant is ",xyz.PresentDate);
     //Trying to use an external package called underscore
     let myArray = ['Akash', 'Pritesh', 'Sabiha']
     let result = underscore.first(myArray)

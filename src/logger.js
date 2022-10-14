@@ -5,6 +5,7 @@ let WelcomeMessage = function() {
     return "done"
 }
 
-let abc = 2022
+let date = new Date();
 module.exports.myUrl = url
 module.exports.myFunction = WelcomeMessage
+module.exports.PresentDate = date
