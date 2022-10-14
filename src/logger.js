@@ -4,13 +4,8 @@ let WelcomeMessage = function() {
     console.log("Welcome to my application I am Abhishek and a part of FunctionUp Lithium Cohort")
     return "done"
 }
-
-let date = new Date();
-const currentMonth = new Date().getMonth() +1
-let BranchInfo = {
-    Batch: "Lithium",
-    Week: "W3D5",
-    Topic: "Nodejs module system"
+let myTrim = function() {
+    let TrimString = "    Abhishek   ";
 }
 module.exports.myUrl = url
 module.exports.myFunction = WelcomeMessage
