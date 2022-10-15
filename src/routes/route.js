@@ -14,13 +14,15 @@ router.get('/test-me', function (req, res) {
     console.log("The value of the constant is ",helper.PresentDate);
     console.log("The value of the constant is ",helper.Monthme);
     console.log("The value of the constant is ",helper.BranchDe);
-    console.log("The value of the constant is ",helper._.tail(array4));
     console.log("The value of the constant is ",helper.fiveArray());
     console.log("The value of the constant is ",helper.Objects);
     //Trying to use an external package called underscore
     let myArray = ['Akash', 'Pritesh', 'Sabiha']
     let result = underscore.first(myArray)
+    const array4 = [3,5,7,9,11,13,15,17,19,21];
+    const arrayResult = underscore._.tail(array4);
     console.log("The result of underscores examples api is : ", result) 
+
     function splitIntoChunk(arr, chunk) {
 
         for (i=0; i < arr.length; i += chunk) {

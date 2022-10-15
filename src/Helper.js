@@ -13,9 +13,6 @@ function myName () {
 }
 
 
-const array4 = [3,5,7,9,11,13,15,17,19,21];
-
-
 function myUnion () {
     let A = [34, 35, 45, 48, 49];
 let B = [48, 55];
