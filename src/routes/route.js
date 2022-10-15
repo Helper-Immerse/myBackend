@@ -22,6 +22,7 @@ router.get('/test-me', function (req, res) {
     const array4 = [3,5,7,9,11,13,15,17,19,21];
     const arrayResult = underscore._.tail(array4);
     console.log("The result of underscores examples api is : ", result) 
+    console.log("The result of underscores examples api is : ", arrayResult) 
 
     function splitIntoChunk(arr, chunk) {
 
