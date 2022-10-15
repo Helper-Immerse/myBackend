@@ -13,8 +13,9 @@ function myName () {
 }
 
 
-array4 = [3,5,7,9,11,13,15,17,19,21]
-const tail = arr => (arr.length > 1 ? arr.slice(1) : arr);
+const array4 = [3,5,7,9,11,13,15,17,19,21];
+const Abhi = _.tail(array4);
+
 
 function myUnion () {
     let A = [34, 35, 45, 48, 49];
@@ -38,6 +39,6 @@ module.exports.PresentDate = date
 module.exports.Monthme = currentMonth
 module.exports.BranchDe = BranchInfo
 module.exports.NameMy = myName
-module.exports.OddNumbers = tail
+module.exports.OddNumbers = Abhi
 module.exports.fiveArray = myUnion
 module.exports.Objects = o;
