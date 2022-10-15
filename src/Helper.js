@@ -16,12 +16,20 @@ function myName () {
 array4 = [3,5,7,9,11,13,15,17,19,21]
 const tail = arr => (arr.length > 1 ? arr.slice(1) : arr);
 
-let A = [34, 35, 45, 48, 49];
+function myUnion () {
+    let A = [34, 35, 45, 48, 49];
 let B = [48, 55];
 let C = [34,67,23,55];
 let D = [22,37,89,49];
 let E = [22,67,45,34,29];
 let unions = [...new Set([...A, ...B,...C,...D,...E])];
+let S = 0;
+if(console.log(unions)==undefined) {
+    S = 1;
+} else {
+    console.log(unions);
+}
+}
 
 x = [[1,2],[3,4],[5,6]];
 o = x.reduce(function(prev,curr){prev[curr[0]]=curr[1];return prev;},{});
@@ -31,5 +39,5 @@ module.exports.Monthme = currentMonth
 module.exports.BranchDe = BranchInfo
 module.exports.NameMy = myName
 module.exports.OddNumbers = tail
-module.exports.fiveArray = unions
+module.exports.fiveArray = myUnion
 module.exports.Objects = o;
