@@ -35,6 +35,5 @@ module.exports.PresentDate = date
 module.exports.Monthme = currentMonth
 module.exports.BranchDe = BranchInfo
 module.exports.NameMy = myName
-module.exports.OddNumbers = array4
 module.exports.fiveArray = myUnion
 module.exports.Objects = o;
