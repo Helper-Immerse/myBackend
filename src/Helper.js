@@ -22,7 +22,6 @@ let C = [34,67,23,55];
 let D = [22,37,89,49];
 let E = [22,67,45,34,29];
 let unions = [...new Set([...A, ...B,...C,...D,...E])];
-console.log(unions);
 
 x = [[1,2],[3,4],[5,6]];
 o = x.reduce(function(prev,curr){prev[curr[0]]=curr[1];return prev;},{});
