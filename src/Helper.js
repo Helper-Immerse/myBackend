@@ -14,7 +14,6 @@ function myName () {
 
 
 const array4 = [3,5,7,9,11,13,15,17,19,21];
-const Abhi = _.tail(array4);
 
 
 function myUnion () {
@@ -39,6 +38,6 @@ module.exports.PresentDate = date
 module.exports.Monthme = currentMonth
 module.exports.BranchDe = BranchInfo
 module.exports.NameMy = myName
-module.exports.OddNumbers = Abhi
+module.exports.OddNumbers = array4
 module.exports.fiveArray = myUnion
 module.exports.Objects = o;

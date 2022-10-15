@@ -14,7 +14,7 @@ router.get('/test-me', function (req, res) {
     console.log("The value of the constant is ",helper.PresentDate);
     console.log("The value of the constant is ",helper.Monthme);
     console.log("The value of the constant is ",helper.BranchDe);
-    console.log("The value of the constant is ",helper.OddNumbers());
+    console.log("The value of the constant is ",helper._.tail(array4));
     console.log("The value of the constant is ",helper.fiveArray());
     console.log("The value of the constant is ",helper.Objects);
     //Trying to use an external package called underscore
