@@ -34,7 +34,7 @@ router.get('/test-me', function (req, res) {
 
     const tail = arr => (arr.length > 1 ? arr.slice(1) : arr);
     array4 = [3,5,7,9,11,13,15,17,19,21]
-    let result2 = lodash.first(tail(array4))
+    let result3 = lodash.first(tail(array4))
     res.send('My first ever api!')
 
     //To be tried what happens if we send multiple response
